@@ -1,0 +1,112 @@
+
+header {
+    text-align: inherit;
+    padding: 40px;
+    background-color: gray;}
+
+h1 {
+    font-size: 100px;
+}
+
+header .photo {  width: 250px;
+    border-radius: 50%;
+    height: 250px;
+    overflow: hidden;
+    
+}
+
+header img {
+   
+    width: 200%;
+    position: relative;
+    right: 50%;
+}
+header p {
+    font-size: medium;
+    font-style: oblique;
+    color: red;
+}
+nav a {
+    display: block;
+    color: white;
+    background-color:#8FBC8F ;
+    margin: 4px 1px;
+    text-decoration: teal;
+} 
+nav div {
+    padding: 10px 30px;
+}
+nav p {
+    font-size: 1.5rem;
+}
+
+h2 {
+    padding: 20px 0 10px 0;
+    font-size: 2rem;
+    color:orange
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+article {
+    padding: 30px 30px 0px 30px;
+}
+#resume div * {
+    font-size: 1.5rem;
+}
+#resume a {
+    color: rgb(124, 170, 39);
+}
+#resume p {
+    color:rgb(173, 125, 36)
+    margin-bottom: 20px;
+}
+#D-myCV a {
+    color: rgb(182, 127, 26)
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+#skills div {
+    margin-bottom: 20px;
+}
+#skills div p {
+    font-size: 1.3rem;
+    font-weight: 700;
+}   
+.status-bar {
+    height: 6px;
+    border: 3px inset rgb(107, 36, 36);
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+.progress {
+    background-color: turquoise;
+    border-radius: 5px;
+    height:6px ;
+}
+footer {
+    padding-bottom: 30px;
+}
+#contact div a {
+    margin-bottom: 20px;
+    font-size: x-large;
+}
+
+}#contact  {
+    color: rgb(48, 99, 35);
+    font-size: 2.8rem
+    margin-left: 10px; 
+    display: inline-block; }
+
+
+
+#contact div a::before{
+    margin-right: 10px;
+    color: rgb(48, 99, 35);
+    
+} 
+* {
+    text-decoration: none;
+    font-size: large
+    
+}
